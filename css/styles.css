@@ -1,0 +1,223 @@
+/*************************TAG***************************/
+body {
+  padding-top: 50px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+/****************************NAVBAR**********************/
+.navbar-brand {
+  font-family: 'Ubuntu';
+  font-size: 2rem;
+}
+
+.nav-item {
+  margin: auto 1.5rem;
+  font-size: 1.2rem;
+  margin-bottom: -1rem;
+}
+
+.nav-link {
+  font-weight: lighter;
+}
+
+/*******************POSITIONING***********************/
+.container-fluid {
+  padding: 7% 15%;
+}
+
+.ms15 {
+  margin-left: 15%;
+}
+
+.me15 {
+  margin-right: 15%;
+}
+
+/* ****************BACKGROUND************** */
+
+.white-section {
+  background-color: #fff;
+}
+
+.color-section {
+  background-color: #ff4c68;
+  color: #fff;
+}
+/**************HEADINGS*************/
+.main-heading {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  font-weight: 900;
+  line-height: 1.5;
+}
+
+.white-heading {
+  color: #fff;
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.trait-heading {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.card-title {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.black-heading {
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/************* TITLE-SECTION *************/
+.title-section {
+  padding-bottom: 7%;
+  text-align: left;
+}
+
+.dog-image {
+  transform: rotate(25deg);
+  width: 25%;
+  position: absolute;
+  right: 25%;
+}
+
+/* **********FEATURES SECTION************ */
+.features-section {
+  z-index: 1;
+  position: relative;
+}
+
+.sub-title {
+  color: #8f8f8f;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+}
+
+.redish-icon {
+  color: #ef8172;
+  font-size: 3rem;
+  line-height: 2;
+  margin-bottom: 1rem;
+}
+
+.redish-icon:hover {
+  color: #ff4c68;
+}
+
+.col-padding {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+/* **************BELIEFS-SECTION***************** */
+.beliefs-section {
+  background-color: #ef8172;
+}
+
+/* CAROUSEL */
+.carousel-indicators {
+  padding: 7% auto;
+  bottom: -1rem;
+  position: absolute;
+}
+
+.power-image {
+  width: 50%;
+  margin: 3rem 4% 1rem;
+  border-radius: 50%;
+}
+
+/* ***********PRESS SECTION************** */
+.press-section {
+  background-color: #ef8172;
+}
+
+.press-section .container-fluid {
+  padding: 0 15% 5%;
+}
+
+.sponsors {
+  max-width: 100px;
+  width: 15%;
+  margin: 2% 3%;
+}
+
+/* ****************PRICING-SECTION************* */
+.pricing-section {
+  padding: 100px 50px;
+}
+
+.pricing-col {
+  padding: 4% 2%;
+}
+
+.card {
+  height: 100%;
+}
+
+.card-body {
+  position: relative;
+  height: 14rem;
+}
+
+
+/* ****************FOOTER-SECTION********* */
+.footer-section {
+  padding: 5% 15% 3%;
+}
+
+.icon-footer {
+  margin: auto 1rem;
+  font-size: 0.9rem;
+}
+
+/**************** BUTTONS ******************/
+.buton {
+  margin: 1rem 1rem 1rem 0;
+}
+
+.btn-dark:hover {
+  color: #000;
+  background-color: #f8f9fa;
+  border-color: #000;
+}
+
+.btn-light:hover {
+  color: #fff;
+  background-color: #1c1f23;
+  border-color: #f8f9fa;
+}
+
+.gods-btn {
+  position: absolute;
+  bottom: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+}
+
+/**************** MEDIAAQUERY *******************/
+@media (max-width: 1035px) {
+  .dog-image {
+    transform: rotate(0);
+    position: static;
+    width: 60%;
+  }
+
+  .title-section {
+    text-align: center;
+  }
+}

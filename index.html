@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+
+  <meta charset="utf-8">
+  <title>Summoning</title>
+  <!-- CSS BOOTSTRAP -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+  <!-- FONTAWESOME ICON -->
+  <script src="https://kit.fontawesome.com/9c348e4910.js" crossorigin="anonymous"></script>
+  <!-- GOOGLEFONTS -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600;700;800;900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+  <!-- JSBOOTSTRAP -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+
+
+</head>
+
+<body>
+  <section id="title" class="title-section color-section">
+
+    <div class="container-fluid">
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+
+        <a class="navbar-brand ms15 fw-bold" href="#title">zubryd</a>
+        <button class="navbar-toggler me-5 text-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse ps-2 me15 ms15 text-white" id="navbarSupportedContent">
+          <ul class="navbar-nav mb-1 mb-lg-0 ms-auto ">
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#features">powietrze</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#pricing">ziemia</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#footer">ogień</a>
+            </li>
+          </ul>
+        </div>
+
+      </nav>
+
+
+      <!-- Title -->
+      <div class="row">
+        <div class="col-lg-6">
+          <h1 class="main-heading">Zamień się w psa, czy coś się zmieniło?</h1>
+          <button type="button" class="btn btn-dark btn-lg buton"><i class="fas fa-user-astronaut"></i> Kosmos</button>
+          <button type="button" class="btn btn-light btn-lg pe-4 buton"><i class="fas fa-atom"></i> Kwant </button>
+        </div>
+        <div class="col-lg-6">
+          <img id="pies" class="dog-image" src="images/iphone6.png" alt="iphone-mockup">
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- Features -->
+
+  <section id="features" class="features-section white-section">
+    <div class="container-fluid text-center">
+
+
+      <div class="row">
+
+        <div class="col-md-4 col-padding">
+          <i class="fas fa-fist-raised redish-icon"></i><br>
+          <h3 class="trait-heading">Uwierz w siebie.</h3>
+          <p class="sub-title">Bądź przekonany o swojej mocy.</p>
+        </div>
+        <div class="col-md-4 col-padding">
+          <i class="fas fa-bullseye redish-icon"></i><br>
+          <h3 class="trait-heading">Możesz to zrobić.</h3>
+          <p class="sub-title">Jeśli inni to zrobili, to Ty też możesz.</p>
+        </div>
+        <div class="col-md-4 col-padding">
+          <i class="fas fa-trophy redish-icon"></i><br>
+          <h3 class="trait-heading">Zrób to.</h3>
+          <p class="sub-title">Bez zastanowienia, nieustraszoność!</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!--BELIEFS -->
+
+  <section id="beliefs" class="beliefs-section color-section">
+    <div class="container-fluid">
+
+      <div id="prezentacjaMocy" class="carousel slide" data-bs-ride="false" data-bs-interval="5000">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#prezentacjaMocy" data-bs-slide-to="0" class="active"></button>
+          <button type="button" data-bs-target="#prezentacjaMocy" data-bs-slide-to="1"></button>
+          <button type="button" data-bs-target="#prezentacjaMocy" data-bs-slide-to="2"></button>
+        </div>
+        <div class="carousel-inner text-center">
+          <div class="carousel-item active">
+            <h2 class="white-heading">Wszystko jest dozwolone.</h2>
+            <img class="power-image" src="images/self-confidence.jpg" alt="be-open">
+            <br>
+            <p>
+              <em>Self-Confidence, Life</em>
+            </p>
+          </div>
+          <div class="carousel-item">
+            <h2 class="white-heading">Dbaj o ciało!</h2>
+            <img class="power-image" src="images/healthy-food.jpg" alt="eating">
+            <br>
+            <p>
+              <em>tlen / pokarm / aktywność</em>
+            </p>
+          </div>
+          <div class="carousel-item">
+            <h2 class="white-heading">Nic nie jest prawdziwe.</h2>
+            <img class="power-image" src="images/nature-meditation.jpg" alt="meditate">
+            <br>
+            <p>
+              <em>Nie bierz tego zbyt poważnie</em>
+            </p>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#prezentacjaMocy" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#prezentacjaMocy" data-bs-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </button>
+      </div>
+    </div>
+
+    </div>
+  </section>
+
+
+  <!-- Press -->
+
+
+  <section id="press" class="press-section color-section">
+    <div class="container-fluid text-center">
+      <img class="sponsors" src="images/robbins.png" alt="tc-logo">
+      <img class="sponsors" src="images/canfield.png" alt="tnw-logo">
+      <img class="sponsors" src="images/zen.png" alt="biz-insider-logo">
+      <img class="sponsors" src="images/alister.png" alt="mashable-logo">
+    </div>
+  </section>
+
+
+  <!-- Pricing -->
+
+  <section id="pricing" class="text-center pricing-section white-section">
+
+    <h4 class="black-heading">Posłuż się inwokacją.</h4>
+    <p>Zestaw cech osobowości oraz schematów zachowań, które umożliwią Ci niemożliwe.</p>
+
+
+    <div class="row text-center">
+      <div class="pricing-col col-sm-6 col-md-4">
+        <div class="card">
+          <div class="card-header">
+            <h3 class="card-title"> Alisterek</h3>
+          </div>
+          <div class="card-body">
+            <ul class="list-unstyled">
+              <li>Ja jestem Człowiekiem:</li>
+              <li>Czyń Wolę swą,</li>
+              <li>jak Wielki Bóg czynić może,</li>
+              <li>O Panie, Io Pan!</li>
+            </ul>
+            <button type="button" class="btn btn-lg col-10 btn-dark gods-btn">ISIS</button>
+          </div>
+        </div>
+      </div>
+      <div class="pricing-col col-sm-6 col-md-4">
+        <div class="card">
+          <div class="card-header">
+            <h3 class="card-title">Abraxas</h3>
+          </div>
+          <div class="card-body">
+            <ul class="list-unstyled">
+              <li>Ja jestem łaską Eonu!</li>
+              <li>Moim imieniem jest serce oplecione wężem!</li>
+              <li>Przybądź, prowadź mnie!</li>
+              <li></li>
+            </ul>
+            <button type="button" class="btn btn-lg col-10 btn-dark gods-btn">APOPHIS</button>
+          </div>
+        </div>
+      </div>
+      <div class="pricing-col col-md-4">
+        <div class="card">
+          <div class="card-header">
+            <h3 class="card-title">Kwantowy Chłopiec</h3>
+          </div>
+          <div class="card-body">
+            <ul class="list-unstyled">
+              <li>Teoria nieoznaczoności</li>
+              <li>wynika</li>
+              <li>z samej natury rzeczywistości.</li>
+              <li></li>
+            </ul>
+            <button type="button" class="btn btn-lg btn-outline-dark col-10 gods-btn">OSIRIS</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+
+  <!-- READY SECTION -->
+
+
+  <section id="cta" class="ready-section container-fluid color-section">
+    <h2 class="white-heading">Twoje ciało jest gotowe. Od teraz zarządzasz swoim umysłem.</h2>
+    <button type="button" class="btn btn-dark btn-lg buton"><i class="fas fa-dharmachakra"></i> Consciousness</button>
+    <button type="button" class="btn btn-light btn-lg pe-4 buton"><i class="fas fa-hat-wizard"></i> Magick </button>
+
+
+  </section>
+
+
+  <!-- Footer -->
+
+  <footer id="footer" class="footer-section white-section">
+    <i class="fas fa-envelope icon-footer"></i>
+    <i class="fab fa-twitter-square icon-footer"></i>
+    <i class="fab fa-instagram-square icon-footer"></i>
+    <i class="fab fa-facebook-square icon-footer"></i>
+    <br><br>
+    <p style="color: #8f8f8f; font-size: 0.9rem;">© 2021 Zubryd</p>
+
+  </footer>
+
+
+</body>
+
+
+</html>
